@@ -1,0 +1,12 @@
+{
+  "name": "Choose Your Distraction",
+  "version": "1.0.1",
+  "description": "La la la",
+  "manifest_version": 3,
+  "author": "Kevin Phan",
+  "action":{
+      "default_popup": "index.html",
+      "default_icon": "CYDicon.jpg",
+      "default_title": "Choose Your Distraction"
+  }
+}
