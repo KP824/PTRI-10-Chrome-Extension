@@ -1,3 +1,10 @@
+// const btn1 = document.getElementById('newTabBtn1');
+
+// btn1.addEventListener('click', )
+
+// const btn2 = document.getElementById('newTabBtn2');
+// btn2.addEventListener('click', () => {});
+
 // When user starts extension, have to select which offerings they want today
 // checkboxes / buttons for each: jokes, koans, exercises
 // set interval for occurrences
@@ -5,6 +12,7 @@
 // (non-user, in background) disable any not checked
 // Option to reset / stop the extension (clear interval)
 // Show start pop-up again, with checkboxes
+
 
 /* Notes for Jokes
 - show in extension pop-up

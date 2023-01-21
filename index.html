@@ -10,8 +10,48 @@
   <title>PTRI-10 Chrome Extension</title>
 </head>
 <body>
-  <h1>CHOOSE YOUR DISTRACTION</h1>
-  <h4>One-line pitch</h4>
+  <h1>Stretch Break!</h1>
+
+  <div class="health-reminders">
+
+    <a href="index2.html" target="_blank">
+      <button class="sharedButtonStyles" id="newTabBtn1">
+        I want to stretch now!
+      </button>
+    </a>
+
+    <h2 style="padding-top: 15px;">OR set breaks every...</h2>
+
+    <a href="index3.html" target="_blank">
+      <button class="sharedButtonStyles" id="newTabBtn2" onclick="setInterval(runAll, 15000)">
+        15 secs
+      </button>
+    </a>
+
+    <a href="index3.html" target="_blank">
+      <button class="sharedButtonStyles" id="newTabBtn3">
+        15 mins
+      </button>
+    </a>
+
+    <a href="index3.html" target="_blank">
+      <button class="sharedButtonStyles" id="newTabBtn4">
+        30 mins
+      </button>
+    </a>
+
+    <a href="index3.html" target="_blank">
+      <button class="sharedButtonStyles" id="newTabBtn5">
+        60 mins
+      </button>
+    </a>
+
+    <button class="sharedButtonStyles" id="newTabBtn6">
+      Reset
+    </button>
+    
+    <img id="welcomeImg" src="Wellness-Icon-1024x972.png">
+  </div>
 
   <!-- Step 1: tutorial / example of what the user may see
     SLIDE 1: Welcome (click next)
@@ -33,16 +73,13 @@
 
 
     
-  <div clas="jokes">
+  <!-- <div clas="jokes">
     <div class="random-joke" style="width: 500px; height: 500px; border: solid black 5px; margin: 5px">Joke here</div>
   </div>
   <div class="koans">
     <div class="text-container" style="width: 500px; height: 500px; border: solid black 5px; margin: 5px">Story Time</div>
-  </div>
-  <div class="health-reminders" style="width: 500px; height: 500px; border: solid black 5px; margin: 5px">
-    <div>Put text reminders here</div>
-    <div>Maybe GIF/Img of the stretch</div>
-  </div>
-  <script src="/main.js"></script>
+  </div> -->
+
+  <script src="/main3.js"></script>
 </body>
 </html>
