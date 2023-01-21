@@ -22,25 +22,25 @@
 
     <h2 style="padding-top: 15px;">OR set breaks every...</h2>
 
-    <a href="index3.html" target="_blank">
-      <button class="sharedButtonStyles" id="newTabBtn2" onclick="setInterval(runAll, 15000)">
+    <a href="index2.html" target="_blank">
+      <button class="sharedButtonStyles" id="newTabBtn2">
         15 secs
       </button>
     </a>
 
-    <a href="index3.html" target="_blank">
+    <a href="index2.html" target="_blank">
       <button class="sharedButtonStyles" id="newTabBtn3">
         15 mins
       </button>
     </a>
 
-    <a href="index3.html" target="_blank">
+    <a href="index2.html" target="_blank">
       <button class="sharedButtonStyles" id="newTabBtn4">
         30 mins
       </button>
     </a>
 
-    <a href="index3.html" target="_blank">
+    <a href="index2.html" target="_blank">
       <button class="sharedButtonStyles" id="newTabBtn5">
         60 mins
       </button>
@@ -80,6 +80,11 @@
     <div class="text-container" style="width: 500px; height: 500px; border: solid black 5px; margin: 5px">Story Time</div>
   </div> -->
 
-  <script src="/main3.js"></script>
+  <script src="/main.js"></script>
+  <script>
+    document.getElementById("newTabBtn2").addEventListener('click', () => setInterval(location.reload, 15000));
+    // look at runAll, double-check logic to ensure it's rendering to screen correctly
+      // make sure new API calls are happening
+  </script>
 </body>
 </html>
