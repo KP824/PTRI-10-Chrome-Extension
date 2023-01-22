@@ -117,15 +117,21 @@ function runAll() {
 // Create an array and insert 20 random jokes, iterate over array and display curr joke
 // STRETCH GOAL: have joke var, call joke API, store returned joke in var, display var; sometime before next occurence, call API again for new joke
 
-/* Notes for Koans
-- define what koans are (storytime!)
-- show in extension pop-up, be prepared to be enlightened!
-*/
+/****************** Create Interval Settings ******************/
 
-/* Notes for Health Reminders
-- get up and stretch, yoga stretch with image / GIF of how to do it
-- maybe open a new tab (warn user - if select for health reminders, will force open new tab)
-*/
+// const btnDemo = document.getElementById("newTabBtn2"); // how many milliseconds delay to pass to setInterval
+// const btn15 = document.getElementById("newTabBtn3");
+// const btn30 = document.getElementById("newTabBtn4");
+// const btn60 = document.getElementById("newTabBtn5");
+
+// const reset = document.getElementById("newTabBtn6");
+
+// capture all of the abvoe in a function
+// run that function once DOM loads
+// pass function into setInterval, delay in setInterval will be based on button user clicked
+// onclick listener that will run setInterval with 15000ms
+
+// let intervalID;
 
 /* IF WE HAD MORE TIME... HOW WOULD WE IMPROVE EXTENSION?
 - Maybe create tutorial with preselected joke/koan/ or exercise to demonstrate functionality
